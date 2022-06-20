@@ -122,7 +122,7 @@ When user login sucessfully, a unique accessToken will be returned.
 | APIs                                            | Method | Desc                        | AccessToken |
 | ----------------------------------------------- | ------ |------------------------     | ------------|
 | /api/subscribe/get-subscription/:subcriptionid  | GET    | Get a subscription by ID    | Required    |
-| /api/subscribe/get-subscriptions                | GET    | Get a subscription by ID    | Required    |
+| /api/subscribe/get-subscriptions                | GET    | Get all subscription        | Required    |
 
 
 
@@ -140,10 +140,10 @@ When user login sucessfully, a unique accessToken will be returned.
 
 | APIs                                            | Method | Desc                        | AccessToken |
 | ----------------------------------------------- | ------ |------------------------     | ------------|
-| /api/subscribe/create-subscription              | POST   | Get all subscription        | Required    |
-| /api/subscribe/cancel-subscription              | DELETE | Create a new subscription   | Required    |
+| /api/subscribe/create-subscription              | POST   | Create a new subscription   | Required    |
+| /api/subscribe/cancel-subscription              | DELETE |  Cancel a subscription      | Required    |
 | /api/subscribe/get-subscription/:subcriptionid  | GET    | Get a subscription by ID    | Required    |
-| /api/subscribe/get-subscriptions                | GET    | Get a subscription by ID    | Required    |
+| /api/subscribe/get-subscriptions                | GET    | Get all subscription        | Required    |
 
 # DEVELOPER
 NAME: NELSON ISERU
