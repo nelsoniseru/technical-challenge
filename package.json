@@ -1,0 +1,40 @@
+{
+  "name": "technical-challenge",
+  "version": "1.0.0",
+  "description": "This is A node.js based RESTful CURD demo project, providing general functions like User Signup and Login, APIs Authorization , using RESTful apis to create/update/get/delete products and orders.",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest",
+    "start": "node index",
+    "dev": "nodemon -L index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "bcryptjs": "^2.4.3",
+    "connect-redis": "^6.0.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "ejs": "^3.1.8",
+    "express-session": "^1.17.2",
+    "http-errors": "^2.0.0",
+    "jest": "^28.1.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.11.15",
+    "mongoose-seed": "^0.6.0",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.7.5",
+    "nodemon": "^2.0.15",
+    "redis": "^3.1.2",
+    "supertest": "^6.2.3",
+    "swagger-jsdoc": "^6.2.1",
+    "swagger-ui-express": "^4.4.0",
+    "uuid": "^8.3.2"
+  }
+}
