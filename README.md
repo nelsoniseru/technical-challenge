@@ -119,10 +119,10 @@ When user login sucessfully, a unique accessToken will be returned.
 
 ## This particular routes are accessed only by admin
 
-| APIs                                            | Method | Desc                   | AccessToken |
-| ----------------------------------------------- | ------ |------------------------| ------------|
-| /api/subscribe/get-subscription/:subcriptionid  | GET    | Get a product by ID    | Required    |
-| /api/subscribe/get-subscriptions                | GET    | Update a product by ID | Required    |
+| APIs                                            | Method | Desc                        | AccessToken |
+| ----------------------------------------------- | ------ |------------------------     | ------------|
+| /api/subscribe/get-subscription/:subcriptionid  | GET    | Get a subscription by ID    | Required    |
+| /api/subscribe/get-subscriptions                | GET    | Get a subscription by ID    | Required    |
 
 
 
@@ -138,12 +138,12 @@ When user login sucessfully, a unique accessToken will be returned.
 
 ## Subscribe
 
-| APIs                                            | Method | Desc                   | AccessToken |
-| ----------------------------------------------- | ------ |------------------------| ------------|
-| /api/subscribe/create-subscription              | POST   | Get all products       | Required    |
-| /api/subscribe/cancel-subscription              | DELETE | Create a new product   | Required    |
-| /api/subscribe/get-subscription/:subcriptionid | GET    | Get a product by ID    | Required    |
-| /api/subscribe/get-subscriptions                | GET    | Update a product by ID | Required    |
+| APIs                                            | Method | Desc                        | AccessToken |
+| ----------------------------------------------- | ------ |------------------------     | ------------|
+| /api/subscribe/create-subscription              | POST   | Get all subscription        | Required    |
+| /api/subscribe/cancel-subscription              | DELETE | Create a new subscription   | Required    |
+| /api/subscribe/get-subscription/:subcriptionid  | GET    | Get a subscription by ID    | Required    |
+| /api/subscribe/get-subscriptions                | GET    | Get a subscription by ID    | Required    |
 
 # DEVELOPER
 NAME: NELSON ISERU
