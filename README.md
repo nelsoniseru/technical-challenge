@@ -146,7 +146,7 @@ When user login sucessfully, a unique accessToken will be returned.
 | /api/subscribe/get-subscriptions                | GET    | Get all subscription        | Required    |
 
 # DEVELOPER
-NAME: NELSON ISERU
-JOB TYPE: BACKEND ENGINEER
+NAME: NELSON ISERU,
+JOB-TYPE: BACKEND ENGINEER
 
 
