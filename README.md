@@ -145,6 +145,26 @@ When user login sucessfully, a unique accessToken will be returned.
 | /api/subscribe/get-subscription/:subcriptionid  | GET    | Get a subscription by ID    | Required    |
 | /api/subscribe/get-subscriptions                | GET    | Get all subscription        | Required    |
 
+# Models
+## Subscribe model
+| Field           | Type   | 
+| --------------- | ------ |
+| email           | string |
+| firstname       | string |       
+| gender          | string | 
+| date_of_birth   | date   |               
+| newsletter_id   | string |
+|flag_for_content | boolean|
+
+## User model
+| Field           | Type   | 
+| --------------- | ------ |
+| email           | string |
+| password        | string |       
+
+  
+
+
 # DEVELOPER
 NAME: NELSON ISERU,
 JOB-TYPE: BACKEND ENGINEER
