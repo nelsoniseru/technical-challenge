@@ -128,7 +128,7 @@ When user login sucessfully, a unique accessToken will be returned.
 
 # Available APIs
 
-## User
+## Auth
 
 
 | APIs               | Method |         Desc          |

@@ -3,7 +3,6 @@ const { v4: uuidv4 } = require('uuid')
 const Sub = require('../models/subscription')
 const User = require('../models/users')
 const sendmail = require("../helpers/mailtransport");
-//uuidv4()
 let { subscribeSchema, cancelSubSchema } = require('../helpers/validation_schema')
 const ejs = require("ejs")
 const path = require("path");
