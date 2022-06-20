@@ -82,6 +82,13 @@ docker exec -it technical-challenge_node-app_1 bash
 node ./helpers/init_seeder.js
 ```
 
+# Accessing mongo-express for docker
+
+## simply just use this url
+```
+http://localhost:8080/
+```
+
 # APIs Authorization
 
 ## Some APIs are protected by accessToken (JWT), such as:
