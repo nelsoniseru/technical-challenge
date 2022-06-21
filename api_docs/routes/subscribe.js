@@ -102,17 +102,10 @@ module.exports = {
         get_all_subscription: {
             get: {
                 tags: ['Subscribe'],
-                summary: 'Get the list of all products',
+                summary: 'Get the list of all subscription',
                 produces: ['application/json'],
     
-                responses: {
-                    '200': {
-                        description: 'Return all the existing products.'
-                    },
-                    '500': {
-                        description: 'Internal server error'
-                    }
-                },
+                
                 security: [{ bearerAuth: [] }],
                 responses: {}
             },
