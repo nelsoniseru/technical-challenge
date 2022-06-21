@@ -49,6 +49,9 @@ This is applicable when you are running the project without docker
 ```
 npm run dev
 ```
+# download redis and start up the redis server
+> For more details about Redis, click [here](https://redis.io/).
+
 # seed the admin data into the database 
 ```
 node ./helpers/init_seeder.js
