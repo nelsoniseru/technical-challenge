@@ -80,7 +80,7 @@ docker-compose up
 docker exec -it technical-challenge_node-app_1 bash
 ```
 
-### And then running the command
+### checking the app logs if you start the app on detarch mode
 if you are running the app on detarch mode for instance you used this command "docker-compose up -d" you simply need to run the command below to check the app logs
 ```
 docker logs technical-challenge_node-app_1
